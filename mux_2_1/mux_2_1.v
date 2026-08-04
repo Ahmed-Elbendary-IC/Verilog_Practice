@@ -1,5 +1,5 @@
-module mux_2_1(d0, d1 , s , y);
-  input d0 , d1 , s ;
+module mux_2_1(s , d0, d1 ,  y);
+  input s , d0 , d1 ;
   output y ;
   wire (not_s , out_g2 , out_g3);
 
